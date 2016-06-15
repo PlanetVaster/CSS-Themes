@@ -1,0 +1,146 @@
+/* Template1-Light v1.0 by Andrew Mitchell */
+/* Remember to use normalize.css */
+/* Remember to link the Oswald, Open Sans, and Montserrat fonts from Google Fonts */
+
+/* Text */
+* {
+    display: block;
+}
+
+title {
+    display: none;
+}
+
+h1 {
+    color: #212121;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+h2 {
+    color: #212121;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h3 {
+    color: #212121;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.17em;
+    text-align: center;
+}
+
+h4 {
+    color: #212121;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.025em;
+    text-align: center;
+}
+
+h5 {
+    color: #212121;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.83em;
+    text-align: center;
+}
+
+h6 {
+    color: #212121;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.67em;
+    text-align: center;
+}
+
+p {
+    color: #212121;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+
+/* Image Stuff */
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #424242;
+}
+
+/* Form Stuff */
+form {
+    text-align: center;
+    margin: 0 auto;
+}
+
+label {
+    margin: 5px auto;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #212121;
+}
+
+input[type=text], input[type=password], input[type=number] {
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background-color: #FAFAFA;
+    color: #212121;
+    border: 1px solid #263238;
+    border-radius: 5px;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=number]:focus {
+    border: 1px solid #0D47A1;
+    outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=submit]
+{
+    margin: 7px auto;
+    background-color: #43A047;
+    color: #212121;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    border: 2px solid #263238;
+    border-radius: 10px;
+    width: 70px;
+    height: 37px;
+    display: inline-block;
+}
+
+button {
+    margin: 7px auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    background-color: #1E88E5;
+    color: #212121;
+    border: 2px solid #263238;
+    border-radius: 10px;
+    width: 70px;
+    height: 37px;
+}
+
+form button {
+    display: inline-block;
+}
+
+input[type=submit]:focus, button:focus {
+    border-color: black;
+    outline: none;
+    color: #FAFAFA;
+}
+
+input[type=submit]:hover, button:hover {
+    border-color: #37474F;
+    opacity: 0.75;
+}
