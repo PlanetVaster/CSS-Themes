@@ -7,7 +7,7 @@
     display: block;
 }
 
-title {
+title, script {
     display: none;
 }
 
